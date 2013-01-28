@@ -2,23 +2,23 @@
 <html>
 	<head>
 		<title>Sebio - Mon Panier</title>
-		<link rel="stylesheet" href="../css/main.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="../css/main.css" type="text/css" media="screen">
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="/sebio/img/logofav.ico" >
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-		<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
-		<meta http-equiv="Content-Language"  content="fr"/>
+		<meta charset="utf-8">
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 	</head>
 	<body id="productBody">
 		<div id="tool">
-			<p>SERVICE CLIENTÈLE:&nbsp0800 490 80</p>
-			<a href="#" name="down" id="down1"><img class="dropdown" src="../img/icon/down.png"></a>
-			<a href="#" id="basket" href="#" name="mon panier"><img src="../img/icon/basket.png"></a>
-			<a href="#" name="objets panier">0 objet</a>
-			<a href="#" name="down" id="down2"><img class="dropdown" src="../img/icon/down.png"></a>
-			<a href="" id="toConnect" name="se connecter">SE CONNECTER</a>
+			<p>SERVICE CLIENTÈLE:&nbsp;0800 490 80</p>
+			<a href="#" name="down" id="down1"><img alt="down" class="dropdown" src="../img/icon/down.png"></a>
+			<a href="#" id="basket" name="mon-panier"><img alt="panier" src="../img/icon/basket.png"></a>
+			<a href="#" name="objets-panier">0 objet</a>
+			<a href="#" name="down" id="down2"><img alt="down" class="dropdown" src="../img/icon/down.png"></a>
+			<a href="" id="toConnect" name="se-connecter">SE CONNECTER</a>
 			<div class="slideDown" id="connect">
 				<form>
 					<label for="name">Nom</label>
@@ -33,8 +33,8 @@
 				<form action="#">
 					<label for="createName">Nom</label>
 					<input type="text" id="createName">
-					<label for="createEmail">Email</label>
-					<input type="email" id="createEmail">
+					<label for="createdEmail">Email</label>
+					<input type="email" id="createdEmail">
 					<label for="createPassword">Mot de passe</label>
 					<input type="password" id="createPassword"> 
 					<input type="submit" id="createAccount" value="Créer mon compte">
@@ -74,15 +74,15 @@
 						<input type="submit" value ="rechercher" /> 
 					</form>
 			</div>
-			<a class="nav" href="html/accueil.html" name="accueil">Accueil</a>
-			<a class="nav" href="html/santé.html" name="sante">Santé</a>
+			<a class="nav" href="enfant.html" name="accueil">Accueil</a>
+			<a class="nav" href="enfant.html" name="sante">Santé</a>
 			<div class="navDown">
 				<a href="#">Bien être</a>
 				<a href="#">Hygiène</a>
 				<a href="#">Aromathérapie</a>
 				<a href="#">Fleurs de Bach</a>
 			</div>
-			<a class="nav" href="html/enfants.html" name="enfants">Enfants</a>
+			<a class="nav" href="enfant.html" name="enfants">Enfants</a>
 			<div class="navDown">
 				<a href="#">Livres</a>
 				<a href="#">Jouets</a>
@@ -90,21 +90,21 @@
 				<a href="#">Alimentation</a>
 				<a href="#">Liste de naissance</a>
 			</div>
-			<a class="nav" href="html/vetement.html" name="vetements">Vêtements</a>
+			<a class="nav" href="enfant.html" name="vetements">Vêtements</a>
 			<div class="navDown">
 				<a href="#">Hommes</a>
 				<a href="#">Femmes</a>
 				<a href="#">Enfants</a>
 				<a href="#">Nouveaux-nés</a>
 			</div>
-			<a class="nav" href="html/loisirs.html" name="loisirs">Loisirs</a>
+			<a class="nav" href="enfant.html" name="loisirs">Loisirs</a>
 			<div class="navDown">
 				<a href="#">Livres</a>
 				<a href="#">Papeterie</a>
 				<a href="#">Jeux et jouets</a>
 				<a href="#">Ateliers nature</a>
 			</div>
-			<a class="nav" href="html/maison.html" name="maison">Maison</a>
+			<a class="nav" href="enfant.html" name="maison">Maison</a>
 			<div class="navDown">
 				<a href="#">Produits d'entretien</a>
 				<a href="#">Linge de maison</a>
@@ -119,13 +119,13 @@
 					<tr>
 						<td><img src="../img/product/apres_soleil_small.png" alt="lait solaire"></td>
 						<td>Lait solaire protecteur</td>
-						<td class="qRow"><label for="quantitySelect1">Quantité</label><input id="quantitySelect1" type="number" min="1" size="2" value="1"></td>
+						<td class="qRow"><label for="quantitySelect1">Quantité</label><input id="quantitySelect1" type="number" min="1" value="1"></td>
 						<td>18,17€</td>
 					</tr>
 					<tr>
 						<td><img src="../img/product/rampal_small.png" alt="Paillette de savon"></td>
 						<td>Paillettes de savon</td>
-						<td class="qRow"><label for="quantitySelect2">Quantité</label><input id="quantitySelect2" type="number" min="1" size="2" value="1"></td>
+						<td class="qRow"><label for="quantitySelect2">Quantité</label><input id="quantitySelect2" type="number" min="1"  value="1"></td>
 						<td>19,30€</td>
 					</tr>
 					<tr>
@@ -141,32 +141,32 @@
 					</tr>
 				</table>
 				<p id="totalPay">TOTAL:&nbsp;41,97€</p>
-			<a id="continue" class="button"  href="../index.html"><< Continuer mes achats</a>
-			<a id="paymentProcess" class="button"  href="confirm.html">Proceder au paiement >> </a>
+			<a id="continue" class="button"  href="../index.html"> &#60;&#60; Continuer mes achats</a>
+			<a id="paymentProcess" class="button"  href="confirm.html">Proceder au paiement &#62;&#62; </a>
 		</section>
 		<section id="topSales">
 			<h3>MEILLEURES VENTES</h3>
 			<div class="container clearfix">
 				<article class="topSale">
 					<h1 class="hidden">Lait solaire protecteur</h1>
-						<a class="picture" href="html/product.html"><img  src="../img/product/apres_soleil.png" alt="Creme eternelle"></a>
-						<a href="html/product.html" class="description">Lait solaire protecteur</a>
+						<a class="picture" href="product.html"><img  src="../img/product/apres_soleil.png" alt="Creme eternelle"></a>
+						<a href="product.html" class="description">Lait solaire protecteur</a>
 						<p class="price">18,17€</p>
-						<a class="smallBasket" href="html/product.html"><img src="img/icon/basket_small.png"></a>
+						<a class="smallBasket" href="product.html"><img alt="panier" src="img/icon/basket_small.png"></a>
 					</article>
 				<article class="topSale">
 					<h1 class="hidden">Porte bébé et housse</h1>
-						<a class="picture" href="html/product.html"><img  src="../img/product/ergobaby_coussin.png" alt="Creme eternelle"></a>
-						<a href="html/product.html" class="description">Porte bébé et housse</a>
+						<a class="picture" href="product.html"><img  src="../img/product/ergobaby_coussin.png" alt="Creme eternelle"></a>
+						<a href="product.html" class="description">Porte bébé et housse</a>
 						<p class="price">18,17€</p>
-						<a class="smallBasket" href="html/product.html"><img src="../img/icon/basket_small.png"></a>
+						<a class="smallBasket" href="product.html"><img alt="panier" src="../img/icon/basket_small.png"></a>
 				</article>
 				<article class="topSale">
 					<h1 class="hidden">Soins aux agrumes</h1>
-						<a class="picture" href="html/product.html"><img  src="../img/product/lineance_bio.png" alt="Soin aux agrumes"></a>
-						<a href="html/product.html" class="description">Soins aux agrumes</a>
+						<a class="picture" href="product.html"><img  src="../img/product/lineance_bio.png" alt="Soin aux agrumes"></a>
+						<a href="product.html" class="description">Soins aux agrumes</a>
 						<p class="price">24,80€</p>
-						<a class="smallBasket" href="html/product.html"><img src="img/icon/basket_small.png"></a>
+						<a class="smallBasket" href="product.html"><img alt="panier" src="img/icon/basket_small.png"></a>
 				</article>
 			</div>
 		</section>
