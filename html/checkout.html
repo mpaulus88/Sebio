@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
 	<head>
+		<meta name="HandheldFriendly" content="true">
+		<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no">
 		<title>Sebio - Mon Panier</title>
 		<link rel="stylesheet" href="../css/main.css" type="text/css" media="screen">
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
@@ -61,7 +63,7 @@
 						<p class="basketPrice">19,30€</p>
 					</div>
 				<p id="total">Total: 37,47€</p>
-				<a id="ordering" class="button" href="http://localhost/SebioTest/html/order.html">Passer Commande >> </a>
+				<a id="ordering" class="button" href="checkout.html">Passer Commande >> </a>
 			</div>	
 			<a href="#" id="newsL" name="newsletter">NEWSLETTER</a>
 		</div>	
@@ -120,20 +122,20 @@
 						<td><img src="../img/product/apres_soleil_small.png" alt="lait solaire"></td>
 						<td>Lait solaire protecteur</td>
 						<td class="qRow"><label for="quantitySelect1">Quantité</label><input id="quantitySelect1" type="number" min="1" value="1"></td>
-						<td>18,17€</td>
+						<td id="piece1">18,17€</td>
 					</tr>
 					<tr>
 						<td><img src="../img/product/rampal_small.png" alt="Paillette de savon"></td>
 						<td>Paillettes de savon</td>
 						<td class="qRow"><label for="quantitySelect2">Quantité</label><input id="quantitySelect2" type="number" min="1"  value="1"></td>
-						<td>19,30€</td>
+						<td id="piece2">19,30€</td>
 					</tr>
 					<tr>
 						<td class="empty"></td>
 						<td class="empty"></td>
 						<td id="deliverySelect">
 							<label for="delivery1">Livraison bPost (4-5jours)</label>
-							<input name="delivery" type="radio" value="bPost" id="delivery1">
+							<input name="delivery" type="radio" value="bPost" checked id="delivery1">
 							<label for="delivery2">Livraison DHL (1-2jours)</label>
 							<input name="delivery" type="radio" value="DHL" id="delivery2">
 						</td>
@@ -152,7 +154,7 @@
 						<a class="picture" href="product.html"><img  src="../img/product/apres_soleil.png" alt="Creme eternelle"></a>
 						<a href="product.html" class="description">Lait solaire protecteur</a>
 						<p class="price">18,17€</p>
-						<a class="smallBasket" href="product.html"><img alt="panier" src="img/icon/basket_small.png"></a>
+						<a class="smallBasket" href="product.html"><img alt="panier" src="../img/icon/basket_small.png"></a>
 					</article>
 				<article class="topSale">
 					<h1 class="hidden">Porte bébé et housse</h1>
@@ -166,7 +168,7 @@
 						<a class="picture" href="product.html"><img  src="../img/product/lineance_bio.png" alt="Soin aux agrumes"></a>
 						<a href="product.html" class="description">Soins aux agrumes</a>
 						<p class="price">24,80€</p>
-						<a class="smallBasket" href="product.html"><img alt="panier" src="img/icon/basket_small.png"></a>
+						<a class="smallBasket" href="product.html"><img alt="panier" src="../img/icon/basket_small.png"></a>
 				</article>
 			</div>
 		</section>
